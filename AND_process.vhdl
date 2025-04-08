@@ -9,7 +9,7 @@ end and_beh;
 
 architecture Behavioral of and_beh is  -- architecture defines internal logic
 begin
-process(a,b)
+process(a,b) --runs when a or b changes
 begin
   c <= a and b;
 end process;
